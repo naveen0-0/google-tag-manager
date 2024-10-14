@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <Script
+        {/* <Script
           id="googletagmanager"
           dangerouslySetInnerHTML={{
             __html: `
@@ -16,19 +16,19 @@ export default function Document() {
                 })(window,document,'script','dataLayer','GTM-MH47Z98G');
             `,
           }}
-        />
+        /> */}
       </Head>
       <body>
         <Main />
         <NextScript />
-        <noscript
+        {/* <noscript
           dangerouslySetInnerHTML={{
             __html: `
               <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MH47Z98G"
               height="0" width="0" style="display:none;visibility:hidden"></iframe>
             `,
           }}
-        />
+        /> */}
       </body>
     </Html>
   );
