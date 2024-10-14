@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <ChakraProvider>
       <NavBar />
       <Component {...pageProps} />
-      <GoogleTagManager gtmId="GTM-MH47Z98G" />
+      {/* <GoogleTagManager gtmId="GTM-MH47Z98G" /> */}
     </ChakraProvider>
   );
 }
